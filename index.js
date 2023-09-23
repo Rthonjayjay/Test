@@ -115,3 +115,25 @@ myMap.set("name", "Alice");
 
 //7. Set (ES6): Represents a collection of unique values with iterable methods. E.g
 let mySet = new Set([1, 2, 2, 3, 4, 4]);
+
+
+//           Assignment
+
+//1. Prompt the user to enter their age
+const votersage = prompt("Type your age:");
+
+//2. Prompt the user to enter whether they are a citizen (yes or no)
+const Citizen = prompt("Are you a citizen? (yes or no)");
+
+//3. Check if the age is at least 18 and the user is a citizen
+if (votersage >= 18 && Citizen === "yes") {
+  console.log("You are eligible to vote.");
+} else {
+  console.log("You are not eligible to vote.");
+}
+
+//4. answer: You are eligible to vote.
+
+
+
+
